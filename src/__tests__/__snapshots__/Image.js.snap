@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image renders 1`] = `
+.c0 {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+<img
+  alt="Smiling students at a hackathon"
+  className="c0 "
+  src="https://hackclub.com/lah_1.jpg"
+/>
+`;

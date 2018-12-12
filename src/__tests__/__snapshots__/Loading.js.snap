@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading renders 1`] = `
+.c1 {
+  color: #e42d42;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 64px;
+  height: 64px;
+}
+
+.c2 {
+  position: absolute;
+  border: 4px solid currentColor;
+  opacity: 1;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  -webkit-animation: EdArQ 0.975s ease-out infinite;
+  animation: EdArQ 0.975s ease-out infinite;
+}
+
+<div
+  aria-label="Loading"
+  aria-role="presentation"
+  className="c0 c1"
+>
+  <div
+    className="c2 "
+  />
+  <div
+    className="c2 "
+  />
+</div>
+`;

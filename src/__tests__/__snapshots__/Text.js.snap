@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text align prop sets text-align 1`] = `
+.c0 {
+  margin: 0px;
+  text-align: center;
+}
+
+<p
+  className="c0"
+/>
+`;
+
+exports[`Text bold prop sets font-weight 1`] = `
+.c0 {
+  margin: 0px;
+  font-weight: bold;
+}
+
+<p
+  className="c0"
+/>
+`;
+
+exports[`Text caps prop sets text-transform 1`] = `
+.c0 {
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+<p
+  className="c0"
+/>
+`;
+
+exports[`Text mt prop sets margin-top 1`] = `
+.c0 {
+  margin: 0px;
+  margin-top: 12px;
+}
+
+<p
+  className="c0"
+/>
+`;
+
+exports[`Text regular prop sets font-weight 1`] = `
+.c0 {
+  margin: 0px;
+  font-weight: regular;
+}
+
+<p
+  className="c0"
+/>
+`;
+
+exports[`Text renders 1`] = `
+.c0 {
+  margin: 0px;
+}
+
+<p
+  className="c0"
+/>
+`;

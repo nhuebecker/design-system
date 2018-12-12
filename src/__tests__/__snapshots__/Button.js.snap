@@ -1,0 +1,432 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button custom bg 1`] = `
+.c0 {
+  margin: 0px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #7280ed;
+  color: #ffffff;
+  font-size: 24px;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 1.125;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  -webkit-transition: 0.1875s cubic-bezier(0.375,0,0.675,1) box-shadow;
+  transition: 0.1875s cubic-bezier(0.375,0,0.675,1) box-shadow;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.125);
+  border-radius: 9999px;
+  border: none;
+}
+
+.c0:hover,
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 2px 6px rgba(114,128,237,0.25);
+}
+
+.c0:active {
+  outline: 0;
+  box-shadow: 0 2px 8px 2px rgba(114,128,237,0.25);
+}
+
+<a
+  className="c0"
+  color="white"
+  fontSize={3}
+/>
+`;
+
+exports[`Button disabled prop sets 1`] = `
+.c0 {
+  margin: 0px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #e42d42;
+  color: #ffffff;
+  font-size: 24px;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 1.125;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  -webkit-transition: 0.1875s cubic-bezier(0.375,0,0.675,1) box-shadow;
+  transition: 0.1875s cubic-bezier(0.375,0,0.675,1) box-shadow;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.125);
+  border-radius: 9999px;
+  border: none;
+  opacity: 0.25;
+  cursor: not-allowed;
+}
+
+.c0:hover,
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 2px 6px rgba(228,45,66,0.25);
+}
+
+.c0:active {
+  outline: 0;
+  box-shadow: 0 2px 8px 2px rgba(228,45,66,0.25);
+}
+
+<a
+  className="c0"
+  color="white"
+  disabled={true}
+  fontSize={3}
+/>
+`;
+
+exports[`Button inverted 1`] = `
+.c0 {
+  margin: 0px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #7280ed;
+  color: #ffffff;
+  font-size: 24px;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 1.125;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  -webkit-transition: 0.1875s cubic-bezier(0.375,0,0.675,1) box-shadow;
+  transition: 0.1875s cubic-bezier(0.375,0,0.675,1) box-shadow;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.125);
+  border-radius: 9999px;
+  border: none;
+  background-color: #ffffff;
+  color: #7280ed;
+}
+
+.c0:hover,
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.125);
+}
+
+.c0:active {
+  outline: 0;
+  box-shadow: 0 2px 8px 2px rgba(0,0,0,0.125);
+}
+
+<a
+  className="c0"
+  color="white"
+  fontSize={3}
+/>
+`;
+
+exports[`Button left chevron 1`] = `
+.c0 {
+  margin: 0px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #e42d42;
+  color: #ffffff;
+  font-size: 24px;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 1.125;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  -webkit-transition: 0.1875s cubic-bezier(0.375,0,0.675,1) box-shadow;
+  transition: 0.1875s cubic-bezier(0.375,0,0.675,1) box-shadow;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.125);
+  border-radius: 9999px;
+  border: none;
+}
+
+.c0:hover,
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 2px 6px rgba(228,45,66,0.25);
+}
+
+.c0:active {
+  outline: 0;
+  box-shadow: 0 2px 8px 2px rgba(228,45,66,0.25);
+}
+
+.c0:before {
+  content: '«';
+  padding-right: 0.25em;
+}
+
+<a
+  className="c0"
+  color="white"
+  fontSize={3}
+/>
+`;
+
+exports[`Button renders 1`] = `
+.c0 {
+  margin: 0px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #e42d42;
+  color: #ffffff;
+  font-size: 24px;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 1.125;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  -webkit-transition: 0.1875s cubic-bezier(0.375,0,0.675,1) box-shadow;
+  transition: 0.1875s cubic-bezier(0.375,0,0.675,1) box-shadow;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.125);
+  border-radius: 9999px;
+  border: none;
+}
+
+.c0:hover,
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 2px 6px rgba(228,45,66,0.25);
+}
+
+.c0:active {
+  outline: 0;
+  box-shadow: 0 2px 8px 2px rgba(228,45,66,0.25);
+}
+
+<a
+  className="c0"
+  color="white"
+  fontSize={3}
+/>
+`;
+
+exports[`Button right chevron 1`] = `
+.c0 {
+  margin: 0px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #e42d42;
+  color: #ffffff;
+  font-size: 24px;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 1.125;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  -webkit-transition: 0.1875s cubic-bezier(0.375,0,0.675,1) box-shadow;
+  transition: 0.1875s cubic-bezier(0.375,0,0.675,1) box-shadow;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.125);
+  border-radius: 9999px;
+  border: none;
+}
+
+.c0:hover,
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 2px 6px rgba(228,45,66,0.25);
+}
+
+.c0:active {
+  outline: 0;
+  box-shadow: 0 2px 8px 2px rgba(228,45,66,0.25);
+}
+
+.c0:after {
+  content: '»';
+  padding-left: 0.25em;
+}
+
+<a
+  className="c0"
+  color="white"
+  fontSize={3}
+/>
+`;
+
+exports[`Button scale 1`] = `
+.c0 {
+  margin: 0px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #e42d42;
+  color: #ffffff;
+  font-size: 24px;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 1.125;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  -webkit-transition: 0.1875s cubic-bezier(0.375,0,0.675,1) box-shadow;
+  transition: 0.1875s cubic-bezier(0.375,0,0.675,1) box-shadow;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.125);
+  border-radius: 9999px;
+  border: none;
+  -webkit-transition: 0.1875s cubic-bezier(0.375,0,0.675,1) all;
+  transition: 0.1875s cubic-bezier(0.375,0,0.675,1) all;
+  will-change: transform;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.c0:hover,
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 2px 6px rgba(228,45,66,0.25);
+}
+
+.c0:active {
+  outline: 0;
+  box-shadow: 0 2px 8px 2px rgba(228,45,66,0.25);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-transform: scale(1.0625);
+  -ms-transform: scale(1.0625);
+  transform: scale(1.0625);
+}
+
+@media (prefers-reduced-motion:reduce) {
+  .c0 {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+
+<a
+  className="c0"
+  color="white"
+  fontSize={3}
+  scale={true}
+/>
+`;
+
+exports[`Button without disabled prop sets 1`] = `
+.c0 {
+  margin: 0px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #2de473;
+  color: #ffffff;
+  font-size: 24px;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 1.125;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  -webkit-transition: 0.1875s cubic-bezier(0.375,0,0.675,1) box-shadow;
+  transition: 0.1875s cubic-bezier(0.375,0,0.675,1) box-shadow;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.125);
+  border-radius: 9999px;
+  border: none;
+  background-color: #ffffff;
+  color: #2de473;
+}
+
+.c0:hover,
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.125);
+}
+
+.c0:active {
+  outline: 0;
+  box-shadow: 0 2px 8px 2px rgba(0,0,0,0.125);
+}
+
+<a
+  className="c0"
+  color="white"
+  fontSize={3}
+/>
+`;

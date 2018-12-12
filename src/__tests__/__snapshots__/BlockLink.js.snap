@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockLink renders 1`] = `
+.c1 {
+  margin: 0px;
+  color: inherit;
+}
+
+.c0 {
+  display: block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+<a
+  className="c0 c1"
+  color="inherit"
+>
+  raw text
+</a>
+`;

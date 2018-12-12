@@ -1,0 +1,67 @@
+{
+  "name": "@pandasquad/design-system",
+  "version": "0.0.1-1",
+  "description": "Panda Squad Web Design System",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepare": "babel src -d dist --ignore __tests__ && yarn run fmt",
+    "dev": "start-storybook -p 9000 -c .storybook",
+    "build": "rm -rf .site && build-storybook -c .storybook -o .site",
+    "start": "serve .site -p 9000",
+    "deploy": "storybook-to-ghpages",
+    "fmt": "prettier {.storybook,src}/**/*.js --single-quote --no-semi --write",
+    "coverage": "jest --coverage && serve coverage -o",
+    "test": "jest"
+  },
+  "author": "Nikolas Huebecker",
+  "license": "MIT",
+  "dependencies": {
+    "@hackclub/icons": "^0.0.1",
+    "clean-tag": "^1.0.4",
+    "lodash": "^4.17.11",
+    "palx": "1.0.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "serve": "^10.0.1",
+    "styled-components": "^3.4.9",
+    "styled-system": "1.1.7"
+  },
+  "devDependencies": {
+    "@storybook/addon-info": "^3.4.11",
+    "@storybook/react": "^3.4.11",
+    "@storybook/storybook-deployer": "^2.3.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
+    "jest": "^23.6.0",
+    "jest-styled-components": "^6.2.0",
+    "prettier": "^1.14.2",
+    "react-test-renderer": "^16.5.1"
+  },
+  "jest": {
+    "coverageReporters": [
+      "text",
+      "lcov",
+      "html"
+    ],
+    "collectCoverage": true,
+    "coveragePathIgnorePatterns": [
+      "dist/"
+    ],
+    "setupTestFrameworkScriptFile": "./test-setup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackclub/design-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nhuebecker/design-system/issues"
+  },
+  "homepage": "https://design.hackclub.com"
+}
